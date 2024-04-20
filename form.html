@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sample Form</title>
+  </head>
+  <body>
+    <h2>Sample Form</h2>
+    <form action="http://localhost:3000/submit" method="POST">
+      <label for="dropdown">Select an option:</label>
+      <select id="dropdown" name="dropdown">
+        <option value="option1">Option 1</option>
+        <option value="option2">Option 2</option>
+        <option value="option3">Option 3</option>
+      </select>
+      <br /><br />
+      <label for="inputField">Enter something:</label>
+      <input type="text" id="inputField" name="inputField" />
+      <br /><br />
+      <label for="image">Choose an image:</label>
+      <input type="file" id="image" name="image" accept="image/*" />
+      <br /><br />
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
